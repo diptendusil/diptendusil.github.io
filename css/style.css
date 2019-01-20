@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font:15px/1.5 Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #f4f4f4;
+
+
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.header{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+	
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#showcase
+{
+	min-height:700px;
+	background:url(../images/530505601.jpg) no-repeat ;
+	background-size:cover;
+	text-align: left;
+	color: #FFFFFF;
+	
+}
+
+#showcase h1{
+	margin-top:0px;
+	font-size:70px;
+	margin-bottom:0px;
+	padding-top:300px;
+	padding-left:50px;
+	
+}
+#showcase p{
+	font-size:25px;
+	padding-left:50px;
+}
+
+#skills{
+	min-height:500px;
+	background-color:#5CFB6E;
+	background-size:cover;
+}
+
+#proj{
+	min-height:650px;
+	background-size:cover;
+}
+
+#contact{
+	min-height:350px;
+	background-color:#5CFB6E;
+	background-size:cover;
+}
+
+ul{
+	
+	margin:0;
+	padding:0;
+	
+}
+
+.header{
+	background: #ffffff;
+	color:#000000;
+	padding-top: 30px;
+	min-height: 70px;
+	
+}
+
+.header a{
+	color: #333333;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+.header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	
+}
+
+.header nav{
+	float:right;
+	margin-top: 10px;
+	
+	
+}
+
+.header a:hover{
+	color:#727EF9;
+	
+}
+
+.header #logo{
+	padding-left: 20px;
+	float:left;	
+}
+#skills .box{
+	float:left;
+	width:25%;
+	padding-bottom:20px;
+	text-align: center;
+}
+
+#skills .box h3{
+	font-size:15px;
+}
+
+#proj .box{
+	float:left;
+	width:50%;
+	padding-bottom:20px;
+	text-align: center;
+}
+
+#proj .box h3{
+	font-size:23px;
+}
+
+#proj .box p{
+	color:#888888
+}
+
+#contact .box{
+	float:left;
+	width:33%;
+	padding-bottom:20px;
+	text-align: center;
+}
+
+#contact .box pre{
+	font-family:Cambria;
+}
+
+footer{
+	padding: 20px;
+	background-color:#242424;
+	margin:0;
+}
+footer p{
+	text-align:center;
+	color:#E7E7E7
+}
