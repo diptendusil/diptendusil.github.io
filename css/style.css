@@ -100,6 +100,22 @@ ul{
 	
 }
 
+@media only screen and (max-width: 600px) {
+  .download {
+	float:center;
+	background-color:#D3DE24;
+	border: 2px solid #4CAF50;
+	border-radius: 12px;
+	color:black;
+	text-align:center;
+	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+	padding: 10px 24px;
+	cursor: pointer;
+  }
+}
+
 .header{
 	background: #ffffff;
 	color:#000000;
