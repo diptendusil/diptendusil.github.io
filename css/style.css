@@ -10,7 +10,7 @@ body{
 
 }
 
-iframe{
+#contact iframe{
 	border:2px solid blue;
 	display: block;
   	margin-left: auto;
