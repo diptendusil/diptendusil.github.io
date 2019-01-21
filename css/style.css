@@ -72,8 +72,9 @@ body{
 	background-size:cover;
 }
 
-#download{
+.download{
 	float:right;
+	
 }
 
 ul{
