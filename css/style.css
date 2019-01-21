@@ -64,6 +64,11 @@ body{
 	padding-left:50px;
 }
 
+#about{
+	min-height:650px;
+	background-size:cover;
+}
+
 #skills{
 	min-height:550px;
 	background-color:#5CFB6E;
