@@ -116,8 +116,13 @@ ul{
 
 @media only screen and (max-width: 600px) {
   .download {
+	clear: right;
 	display: flex;
   	justify-content: center;
+  }
+	
+  #about pre{
+	clear: both;
   }
 }
 
