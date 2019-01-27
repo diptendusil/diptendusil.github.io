@@ -123,7 +123,18 @@ ul{
 		height: 350px;
 		width: 350px;
 	}
-
+	
+	#skills .box{
+		width: 50%;
+	}
+	
+	#proj .box{
+		width: 100%;
+	}
+	
+	#contact .box{
+		width: 100%;
+	}
 }
 
 .header{
@@ -167,6 +178,7 @@ ul{
 }
 #skills .box{
 	float:left;
+	width:25%;
 	padding-bottom:20px;
 	text-align: center;
 }
@@ -177,6 +189,7 @@ ul{
 
 #proj .box{
 	float:left;
+	width:50%;
 	padding-bottom:20px;
 	text-align: center;
 }
@@ -191,6 +204,7 @@ ul{
 
 #contact .box{
 	float:left;
+	width:33%;
 	padding-bottom:20px;
 	text-align: center;
 }
