@@ -166,6 +166,7 @@ ul{
 	float:left;	
 }
 #skills .box{
+	float:left;
 	padding-bottom:20px;
 	text-align: center;
 }
@@ -175,6 +176,7 @@ ul{
 }
 
 #proj .box{
+	float:left;
 	padding-bottom:20px;
 	text-align: center;
 }
@@ -188,6 +190,7 @@ ul{
 }
 
 #contact .box{
+	float:left;
 	padding-bottom:20px;
 	text-align: center;
 }
