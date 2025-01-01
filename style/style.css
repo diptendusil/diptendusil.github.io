@@ -2,9 +2,21 @@
 /* CSS Document */
 
 body{
-	font:15px/1.5 Arial,Helvetica,sans-serif;
 	padding:0;
 	margin:0;
+	animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+			opacity: 0;
+	}
+
+	100% {
+			opacity: 1;
+	}
 }
 
 .container{
@@ -13,13 +25,27 @@ body{
 	overflow: hidden;
 }
 
+.navbar a{
+	font-weight: bold;
+}
+
 footer{
 	padding: 20px;
 	background-color:#242424;
 	margin:0;
 }
-footer p{
+
+footer .footer-content{
 	text-align:center;
 	color:#E7E7E7;
 	margin: 0;
+}
+
+.scroll-to-top {
+	height: auto;
+	width: auto;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 50%!important;
 }
