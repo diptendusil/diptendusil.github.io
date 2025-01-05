@@ -8,9 +8,9 @@ const scrollHandler = () => {
     // hide
     dynamicNav.style = 'background-color: #e3f2fd; display: none;'
   }
-  if (window.scrollY > 100) {
+  if (window.scrollY > 80) {
     // show
-    scrollToTopBtn.style = ''
+    scrollToTopBtn.style = 'animation: fadeInAnimation ease 1s; animation-fill-mode: forwards;'
   } else {
     // hide
     scrollToTopBtn.style = 'display: none;'
