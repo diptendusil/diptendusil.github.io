@@ -38,7 +38,7 @@
 								<a class="nav-link" href="#">Skills</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact-section" onclick="scrollToSection('contact-section')">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -61,7 +61,7 @@
 								<a class="nav-link" href="#">Skills</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#contact-section" onclick="scrollToSection('contact-section')">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -71,17 +71,56 @@
 		<div class="container-fluid" style="height: 1000px">
 			Text
 		</div>
-		<div class="container-fluid p-0">
+		<div class="container-fluid p-0" id="contact-section">
 			<footer>
+				<div class="container pb-1">
+					<h3><b>Contact me</b></h3>
+				</div>
+				<div class="container pb-4 pt-2">
+					<span class="contact pt-3">
+						<a
+							class="btn contact-icon"
+							href="mailto:diptendusil2012@gmail.com"
+							target="_blank"
+						>
+							<img src="images/mail-5888.png" alt="Email">
+						</a>
+						<a
+							class="btn contact-icon"
+							href="https://discordapp.com/users/524525943767826432/"
+							target="_blank"
+						>
+							<img src="images/discord-logo-8233.png" alt="Discord">
+						</a>
+						<a
+							class="btn contact-icon"
+							href="https://www.linkedin.com/in/diptendu-sil"
+							target="_blank"
+						>
+							<img src="images/linkedin-112.png" alt="LinkedIn">
+						</a>
+						<a
+							class="btn contact-icon"
+							href="https://github.com/diptendusil"
+							target="_blank"
+						>
+							<img src="images/github-logo-6532.png" alt="Github">
+						</a>
+					</span>
+				</div>
 				<p class="footer-content">
-					<b>Copyright © 2025 All rights reserved | Diptendu Sil.</b>
+					<b>Copyright © 2025 | Diptendu Sil.</b>
 				</p>
 			</footer>
 		</div>
-		<button type="button" class="btn btn-info scroll-to-top" style="display: none;">
-			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-			</svg>
+		<button
+			type="button"
+			class="btn btn-info scroll-to-top"
+			style="display: none;"
+			onclick="scrollToTop()"
+			title="Go to top"
+		>
+			<img src="images/arrow-up-2822.png" alt="" />
 		</button>
 		
 	</body>
